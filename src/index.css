@@ -5,9 +5,53 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: white !important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.my-img{
+  border-radius: 100%;
+  margin-top: 5vh;
+}
+.my-headings{
+  margin: 3% !important;
+  color:#121037;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100%; /* These two lines are counted as one :-)       */
+  display: flex;
+  align-items: center;
+}
+
+.vertical-center-hm {
+  margin-top: 15%;
+  color: #121037 !important;
+}
+
+.card-Shadow{
+  box-shadow:0 7px 14px 0 rgba(0, 0, 0, 0.1);
+  transition: box-shadow .25s ease,transform .25s ease,-webkit-transform .25s ease;
+  border-radius: 2%;
+}
+
+.card-Shadow:hover{
+  box-shadow:0 9px 17px 0 rgba(29, 28, 28, 0.1);
+}
+
+.muiDivider-root {
+  border: none;
+  height: 1px;
+  margin: 0;
+  flex-shrink: 0;
+  background-color: #eeeeee;
+}
+
+.jss82 {
+  margin: 24px 0px 16px 0px;
 }
