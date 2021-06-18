@@ -19,7 +19,7 @@ const Todos = () =>{
   const [names, setName]= useState([]);
 
   useEffect(()=>{
-    setName(['hitesh','karina','karina'])
+    setName(['hitesh','i21','ii3'])
   },[])
 
   const onDel = (ids) =>{
